@@ -1,0 +1,196 @@
+.appHeader {
+    background-color: #eeeeee;
+    min-height: 100vh;
+    /* display: fixed; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: none;
+
+
+}
+
+.signin_box {
+    width: 500px;
+    min-height: 520px;
+    height: auto;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 50px 50px;
+    border-radius: 2px;
+    transition: all .1s ease-in-out;
+    float: center;
+    overflow-y: auto;
+    /* display: table-cell; */
+    border-right: 2px solid #f1f1f1;
+    margin: auto;
+    position: relative;
+}
+
+.zoho_logo {
+    display: block;
+    margin-bottom: 20px;
+    background: url('./Images/logo.png') no-repeat transparent;
+    background-size: auto 100%;
+    background-color: #fff;
+    height: 40px;
+    width: auto;
+}
+
+.signin_head {
+    /* display: block; */
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 30px;
+    transition: all .1s ease-in-out;
+    color: #000000;
+    overflow: hidden;
+}
+
+.signin_head p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.signin_head .signintitle {
+    font-size: 24px;
+}
+
+.signin_head .signinacess {
+    font-size: 16px;
+}
+
+.textbox {
+    display: inline-block;
+    color: #000000;
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-indent: 12px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-right: 12px;
+    transition: all .2s ease-in-out;
+    background: #f8f8f8;
+    border: 1px solid #E4E4E4;
+    margin-bottom: 3%;
+}
+
+.wide{
+    width: 20rem;
+}
+
+.btn {
+    box-shadow: 0px 2px 2px #fff;
+    background-color: #159AFF;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    letter-spacing: .5px;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.text16 {
+    color: #626262;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #159AFF;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.text16a {
+    color: #626262;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #159AFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    margin: auto;
+}
+
+
+#footer {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    color: #727272;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    /* margin: 20px auto; */
+    text-align: center;
+    font-size: 14px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    color: #727272;
+    font-size: 14px;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.change {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #159AFF;
+    /* margin-bottom: 2rem; */
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.err {
+    background-color:#da701c ;
+    border-color: red;
+    font-size: 9px;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.back :first-child {
+    width: 10rem;
+}
